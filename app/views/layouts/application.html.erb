@@ -4,8 +4,11 @@
     <title>SiddurFlipbook</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= stylesheet_link_tag    'style.css', media: 'all' %>
+    <%= stylesheet_link_tag    'wow_book.css', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= javascript_include_tag 'wow_book.min.js' %>
   </head>
 
   <body>
